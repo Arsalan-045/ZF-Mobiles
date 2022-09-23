@@ -1,0 +1,143 @@
+@media (max-width: 600px)
+ {
+    #zf_ig{
+        height: 320px;
+    }
+  }
+
+
+/* about */
+.ahead{
+  margin: 20px;
+  text-align: center;
+}
+
+.fcontainer{
+  display: flex;
+  padding: 30px;
+}
+
+.para1{
+  padding-top: 25px;
+}
+
+.bt1{
+  border-radius: 10px;
+  background-color: rgb(154, 59, 59);
+  color: white;
+  border: 1px solid grey;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.bt1:hover{
+  background-color: aquamarine;
+} 
+
+.img1{
+  height: 300px;
+  width: 600px;
+}
+
+@media (max-width: 600px)
+ {
+    .fcontainer{
+      display: block;
+    }
+
+    .para1{
+      padding-top: 0px;
+    }
+
+    .bt1{
+      margin-left: 80px;
+    }
+
+    .img1{
+      height: 300px;
+      width: 250px;
+    }
+  }
+
+  /* contact us */
+/* .location{
+  height: 40px;
+} */
+ .cont{
+  display: flex;
+  padding: 20px;
+ }
+
+ .cform{
+  width: 45vw;
+  margin-left: 30px;
+  padding: 20px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+ }
+
+ /* adress */
+
+ .adress{
+    margin-left: 30px;
+ }
+ #profile-link{
+  text-decoration: none;
+  color: #333;
+ }
+
+ .cadd{
+
+  margin-left: 20px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+ }
+ .subbtn{
+  border-radius: 7px;
+ }
+ .subbtn:hover
+{
+   background-color: rgb(53, 104, 87);
+   color: white;
+ }
+
+ @media (max-width: 600px){
+  .cont{
+    display: block;
+    padding: 20px;
+   }
+
+   .cform{
+    width: 90vw;
+    margin-left: 0px;
+    padding: 20px;
+   }
+
+   .fwidth{
+    width: 50px;
+   }
+
+   .cadd{
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 90vw;
+   }
+   .location{
+    height: 40px;
+   }
+ }
+
+  /* footer */
+  .footer{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 27px 0px 27px 0px;
+    background: #333;
+    color: white;
+}
+.bld{
+  color: #ff523b;
+}
+
